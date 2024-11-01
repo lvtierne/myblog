@@ -34,7 +34,6 @@ plugins:
 
 # Exclude from processing
 exclude:
-  - _site/
   - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
