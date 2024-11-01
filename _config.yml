@@ -31,10 +31,3 @@ github_username: "lvtierne"
 theme: minima
 plugins:
   - jekyll-feed
-
-# Exclude from processing
-exclude:
-  - .jekyll-cache/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
