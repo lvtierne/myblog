@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/Blog-posts/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Blog-posts/" rel="alternate" type="text/html" /><updated>2024-11-01T17:11:23-05:00</updated><id>http://localhost:4000/Blog-posts/feed.xml</id><title type="html">Laynie’s Blog</title><subtitle>AI and Machine Learning Enthusiast | Software Engineer in the Making</subtitle><entry><title type="html">My First Post</title><link href="http://localhost:4000/Blog-posts/personal/2024/11/01/my-first-post.html" rel="alternate" type="text/html" title="My First Post" /><published>2024-11-01T08:00:00-05:00</published><updated>2024-11-01T08:00:00-05:00</updated><id>http://localhost:4000/Blog-posts/personal/2024/11/01/my-first-post</id><content type="html" xml:base="http://localhost:4000/Blog-posts/personal/2024/11/01/my-first-post.html"><![CDATA[<p>Welcome to my first blog post! In this post, I want to share a bit about my journey into the world of technology and what motivates me to explore the fascinating fields of AI and software development.</p>
+
+<h3 id="my-journey">My Journey</h3>
+
+<p>I’ve always been intrigued by technology. From a young age, I would take apart old gadgets just to see how they worked. Over the years, this curiosity evolved into a passion for programming and understanding how software shapes our world.</p>
+
+<h3 id="future-aspirations">Future Aspirations</h3>
+
+<p>As I continue to learn and grow in my career, I aspire to work on projects that make a difference in people’s lives, especially in areas like healthcare and education. I believe that technology can be a powerful tool for good.</p>
+
+<p>Here’s a little snippet of code I wrote recently:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">!"</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">greet</span><span class="p">(</span><span class="s">"World"</span><span class="p">))</span></code></pre></figure>
+
+<p>Feel free to reach out to me through my <a href="https://www.twitter.com/laynie+tierney">Twitter</a> or <a href="https://github.com/lvtierne">GitHub</a> if you want to chat!</p>
+
+<p>Thank you for reading, and stay tuned for more updates!</p>]]></content><author><name></name></author><category term="personal" /><summary type="html"><![CDATA[Welcome to my first blog post! In this post, I want to share a bit about my journey into the world of technology and what motivates me to explore the fascinating fields of AI and software development.]]></summary></entry><entry><title type="html">Hello Post</title><link href="http://localhost:4000/Blog-posts/personal/2024/11/01/hello-post.html" rel="alternate" type="text/html" title="Hello Post" /><published>2024-11-01T08:00:00-05:00</published><updated>2024-11-01T08:00:00-05:00</updated><id>http://localhost:4000/Blog-posts/personal/2024/11/01/hello-post</id><content type="html" xml:base="http://localhost:4000/Blog-posts/personal/2024/11/01/hello-post.html"><![CDATA[<p>Welcome to my first blog post! Here I want to share my thoughts on learning Jekyll.</p>
+
+<h3 id="why-jekyll">Why Jekyll?</h3>
+
+<p>Jekyll is a simple, blog-aware static site generator. It allows you to create blogs and websites easily.</p>
+
+<h3 id="example-code-snippet">Example Code Snippet</h3>
+
+<p>Here’s a simple Python function:</p>
+
+<p>```python
+def greet(name):
+    return f”Hello, {name}!”</p>]]></content><author><name></name></author><category term="personal" /><summary type="html"><![CDATA[Welcome to my first blog post! Here I want to share my thoughts on learning Jekyll.]]></summary></entry><entry><title type="html">Exploring Python List Comprehensions</title><link href="http://localhost:4000/Blog-posts/computerscience/2024/10/31/python-list-comprehensions.html" rel="alternate" type="text/html" title="Exploring Python List Comprehensions" /><published>2024-10-31T09:00:00-05:00</published><updated>2024-10-31T09:00:00-05:00</updated><id>http://localhost:4000/Blog-posts/computerscience/2024/10/31/python-list-comprehensions</id><content type="html" xml:base="http://localhost:4000/Blog-posts/computerscience/2024/10/31/python-list-comprehensions.html"><![CDATA[<p>Python is known for its simplicity and elegance, and one of the features that exemplify this is <strong>list comprehensions</strong>. They provide a concise way to create lists and can replace many traditional loops, making your code not only cleaner but also faster.</p>
+
+<h3 id="what-are-list-comprehensions">What Are List Comprehensions?</h3>
+
+<p>List comprehensions offer a syntactic shortcut for generating lists. The basic syntax looks like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">expression</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">iterable</span> <span class="k">if</span> <span class="n">condition</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="example-squaring-numbers">Example: Squaring Numbers</h4>
+
+<p>Let’s say you want to create a list of squares for numbers from 0 to 9. Traditionally, you might do this with a loop:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">squares</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">squares</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>With list comprehensions, this can be done in a single line:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">squares</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+</code></pre></div></div>
+
+<h3 id="filtering-with-conditions">Filtering with Conditions</h3>
+
+<p>You can also include conditions. For example, if you want the squares of only even numbers:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">even_squares</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="nested-list-comprehensions">Nested List Comprehensions</h3>
+
+<p>To flatten a list of lists, you can use nested comprehensions:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">matrix</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]]</span>
+<span class="n">flat_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">num</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">matrix</span> <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">row</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>List comprehensions are a powerful feature in Python that can make your code cleaner and more efficient. They are just one of the many tools that contribute to Python’s popularity among developers.</p>]]></content><author><name></name></author><category term="ComputerScience" /><summary type="html"><![CDATA[Python is known for its simplicity and elegance, and one of the features that exemplify this is list comprehensions. They provide a concise way to create lists and can replace many traditional loops, making your code not only cleaner but also faster.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/Blog-posts/computerscience/2024/10/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-10-30T07:55:08-05:00</published><updated>2024-10-30T07:55:08-05:00</updated><id>http://localhost:4000/Blog-posts/computerscience/2024/10/30/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/Blog-posts/computerscience/2024/10/30/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="ComputerScience" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Introduction to Machine Learning</title><link href="http://localhost:4000/Blog-posts/computerscience/2024/08/14/intro-to-machine-learning.html" rel="alternate" type="text/html" title="Introduction to Machine Learning" /><published>2024-08-14T08:00:00-05:00</published><updated>2024-08-14T08:00:00-05:00</updated><id>http://localhost:4000/Blog-posts/computerscience/2024/08/14/intro-to-machine-learning</id><content type="html" xml:base="http://localhost:4000/Blog-posts/computerscience/2024/08/14/intro-to-machine-learning.html"><![CDATA[<h1 id="introduction-to-machine-learning">Introduction to Machine Learning</h1>
+
+<p>Machine learning is a fascinating field that allows computers to learn from data and make predictions or decisions without being explicitly programmed. In this post, we’ll cover:</p>
+
+<h2 id="key-concepts">Key Concepts</h2>
+<ul>
+  <li><strong>Supervised Learning</strong>: Learning from labeled data.</li>
+  <li><strong>Unsupervised Learning</strong>: Discovering patterns in unlabeled data.</li>
+  <li><strong>Reinforcement Learning</strong>: Learning through rewards and punishments.</li>
+</ul>
+
+<h2 id="applications">Applications</h2>
+<ul>
+  <li>Image recognition</li>
+  <li>Natural language processing</li>
+  <li>Predictive analytics</li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+  <li>Learn Python: Essential for ML.</li>
+  <li>Explore libraries like Scikit-learn and TensorFlow.</li>
+  <li>Start with simple projects to apply your knowledge.</li>
+</ol>
+
+<p>Stay tuned for more in-depth posts on each of these topics!</p>]]></content><author><name></name></author><category term="ComputerScience" /><summary type="html"><![CDATA[Introduction to Machine Learning]]></summary></entry></feed>
