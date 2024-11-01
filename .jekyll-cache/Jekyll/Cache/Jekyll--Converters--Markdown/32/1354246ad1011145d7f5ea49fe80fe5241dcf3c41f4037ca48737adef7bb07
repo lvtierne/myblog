@@ -1,0 +1,14 @@
+I"�<p>Welcome to my first blog post! Here I want to share my thoughts on learning Jekyll.</p>
+
+<h3 id="why-jekyll">Why Jekyll?</h3>
+
+<p>Jekyll is a simple, blog-aware static site generator. It allows you to create blogs and websites easily.</p>
+
+<h3 id="example-code-snippet">Example Code Snippet</h3>
+
+<p>Here’s a simple Python function:</p>
+
+<p>```python
+def greet(name):
+    return f”Hello, {name}!”</p>
+:ET
