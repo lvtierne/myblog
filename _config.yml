@@ -22,7 +22,7 @@ title: "Laynie's Blog"
 email: "laynietierney@gmail.com"
 description: >-
   AI and Machine Learning Enthusiast | Software Engineer in the Making
-baseurl: "/Blog-posts" # Update to match the repo name
+baseurl: "/myblog" # Update to match the repo name
 url: "https://lvtierne.github.io" # The base URL for GitHub Pages
 twitter_username: "laynie tierney"
 github_username: "lvtierne"
